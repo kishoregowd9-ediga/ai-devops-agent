@@ -1,0 +1,18 @@
+[
+ {
+  "pattern": "docker build failed",
+  "solution": "Check Dockerfile syntax and verify base image exists"
+ },
+ {
+  "pattern": "npm ERR",
+  "solution": "Run npm install --legacy-peer-deps"
+ },
+ {
+  "pattern": "ImagePullBackOff",
+  "solution": "Verify container registry authentication"
+ },
+ {
+  "pattern": "terraform init failed",
+  "solution": "Check backend configuration and credentials"
+ }
+]
